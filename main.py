@@ -49,7 +49,7 @@ plus_button = Button(root, text="+", padx=39, pady=20, command=button_add)
 clear_button = Button(root, text="Clear", padx=40, pady=20, command=button_clear)
 equal_button = Button(root, text="=", padx=40, pady=20, command=button_equal)
 
-#Put buttons on the screen
+# Put buttons on the screen
 button_1.grid(row=3, column=0)
 button_2.grid(row=3, column=1)
 button_3.grid(row=3, column=2)
@@ -68,5 +68,5 @@ plus_button.grid(row=4, column=0)
 clear_button.grid(row=4, column=2)
 equal_button.grid(row=5, column=0)
 
-#Bringing the screen to life
+# Opens Window
 root.mainloop()
